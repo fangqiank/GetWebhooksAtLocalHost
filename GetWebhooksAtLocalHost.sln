@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LocalWebhookEndpoint", "Loc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocaLEndpoint", "LocaLEndpoint\LocaLEndpoint.csproj", "{AFEE70F7-BD56-4902-80B2-43FBE88298C4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureWebhookEndpoint", "AzureWebhookEndpoint", "{9DFAAC0A-B2B8-4E50-B166-FBFBFCE3D1D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureWebhookEndpoints", "AzureWebhookEndpoints\AzureWebhookEndpoints.csproj", "{17A83EEA-B235-4BDC-8160-B5874F3095D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{AFEE70F7-BD56-4902-80B2-43FBE88298C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFEE70F7-BD56-4902-80B2-43FBE88298C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFEE70F7-BD56-4902-80B2-43FBE88298C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A83EEA-B235-4BDC-8160-B5874F3095D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A83EEA-B235-4BDC-8160-B5874F3095D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A83EEA-B235-4BDC-8160-B5874F3095D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A83EEA-B235-4BDC-8160-B5874F3095D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AFEE70F7-BD56-4902-80B2-43FBE88298C4} = {584548F1-9D82-4B8F-8ECC-0C3B10876482}
+		{17A83EEA-B235-4BDC-8160-B5874F3095D9} = {9DFAAC0A-B2B8-4E50-B166-FBFBFCE3D1D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39541522-3894-4DC4-BC6C-AEE8B1948A2A}
