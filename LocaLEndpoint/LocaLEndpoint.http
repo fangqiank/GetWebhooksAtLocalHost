@@ -1,0 +1,6 @@
+@LocaLEndpoint_HostAddress = http://localhost:5003
+
+GET {{LocaLEndpoint_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
